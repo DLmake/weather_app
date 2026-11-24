@@ -1,4 +1,4 @@
-module postaje
+module github.com/DLmake/weather_app
 
 go 1.24.0
 

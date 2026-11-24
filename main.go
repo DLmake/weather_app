@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"os"
 	"strings"
-	"postaje/vreme"
+	"github.com/DLmake/weather_app/vreme"
 
     "github.com/urfave/cli/v3"
 )
