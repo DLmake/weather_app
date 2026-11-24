@@ -72,8 +72,8 @@ func statistika(postaje map[string]Postaja, oznaka string) (najnizja, najvisja, 
 			fmt.Errorf("the postaja ima premalo meritev %d \n",len(copi_mertive))
 			return
 		}
-		najnizja = 100
-		najvisja = -100
+		najnizja = copi_mertive[0]
+		najvisja = copi_mertive[0]
 		povprecna = 0
 		ok = true
 
